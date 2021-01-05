@@ -10,7 +10,7 @@ key = Fernet.generate_key()
 f = Fernet(key)
 
 # the plaintext is converted to ciphertext
-token = f.encrypt(b"welcome to geeksforgeeks")
+token = f.encrypt(b"PROGRAM IS CREATED BY SIDDHESH DAHATONDE")
 
 # display the ciphertext
 print("The cipher text is:")
